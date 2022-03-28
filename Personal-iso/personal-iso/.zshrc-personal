@@ -1,0 +1,9 @@
+#!/bin/bash
+
+alias update="sudo pacman -Syy"
+alias upgrade="sudo pacman -Syu"
+alias gc="git clone"
+alias ga="git add"
+alias gcm="git commit"
+
+export PATH="$HOME/.emacs.d/bin:$PATH"
