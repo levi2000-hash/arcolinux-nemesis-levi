@@ -31,7 +31,6 @@ sudo pacman -S --noconfirm --needed curl
 sudo pacman -S --noconfirm --needed git
 sudo pacman -S --noconfirm --needed github-cli
 sudo pacman -S --noconfirm --needed vim
-sudo pacman -S --noconfirm --needed emacs
 
 echo
 tput setaf 2
@@ -198,7 +197,6 @@ if grep -q "Arch Linux" /etc/os-release; then
   sudo pacman -S --noconfirm --needed arcolinux-system-config-dev-git  
   #sudo pacman -S --noconfirm --needed lsb-release
   sudo pacman -S --noconfirm --needed arcolinux-tweak-tool-git
-  sudo pacman -S --noconfirm --needed arcolinux-variety-git
   sudo pacman -S --noconfirm --needed arcolinux-wallpapers-git
   sudo pacman -S --noconfirm --needed arcolinux-zsh-git
   sudo pacman -S --noconfirm --needed avahi
