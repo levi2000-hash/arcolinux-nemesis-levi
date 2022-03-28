@@ -133,6 +133,8 @@ sudo pacman -S --noconfirm --needed mpv
 sudo pacman -S --noconfirm --needed wd719x-firmware
 sudo pacman -S --noconfirm --needed dropbox
 sudo pacman -S --noconfirm --needed github-cli
+sudo pacman -S --noconfirm --needed arcolinux-leftwm-git
+sudo pacman -S --noconfirm --needed arcolinux-config-leftwm-git
 ###############################################################################################
 # when on Leftwm
 
@@ -149,7 +151,7 @@ if [ -f /usr/share/xsessions/leftwm.desktop ]; then
 
   #sh ~/.config/leftwm/scripts/install-all-arcolinux-themes.sh
   #sh ~/.config/leftwm/scripts/install-all-arcolinux-community-themes.sh 
-  sh ~/scripts/install-leftwm-theme.sh
+  sh Personal/install-leftwm-theme.sh
   
   leftwm-theme update
   leftwm-theme apply db-nemesis-levi
